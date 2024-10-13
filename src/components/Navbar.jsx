@@ -17,10 +17,12 @@ const Navbar = () => {
                 <a className='hover:font-bold' href="#">Contact</a>
             </li>
         </ul> */}
-        <button className="text-white bg-sky-800 rounded-full px-1 w-30 flex items-center justify-between">
-          <img className="invert" src="icons/github.svg" alt="github logo" />
-          <span className="font-bold px-2">GitHub</span>
-        </button>
+        <a href="https://github.com/gsamhith/CredVaultMG" target="_blank">
+          <button className="text-white bg-sky-800 rounded-full px-1 w-30 flex items-center justify-between">
+            <img className="invert" src="icons/github.svg" alt="github logo" />
+            <span className="font-bold px-2">GitHub</span>
+          </button>
+        </a>
       </div>
     </nav>
   );
